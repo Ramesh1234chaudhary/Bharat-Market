@@ -1,0 +1,45 @@
+.product1{
+    width: 100%;
+    height: 100%;
+    background: #FCC981;
+}
+   
+ 
+
+.cardstyle{
+    width: 300px;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    background: white;
+}
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+
+ .search-input{
+ width: 500px;
+ height: 40px;
+ border-radius:20px;
+ 
+ margin-top: 20px;
+ margin-left: 300px;
+ box-shadow: 0 0 10px black;
+ border-color: papayawhip;
+
+ align-content: center;
+}
+
+
+
+.but1{
+    margin-bottom: 0;
+}
+.button1{
+    
+ border-radius:20px;
+}

@@ -1,0 +1,100 @@
+/* Login.css */
+
+.login1 {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220523/pngtree-night-market-people-summer-outdoor-image_1389214.jpg'); /* Replace 'your-image-url.jpg' with the actual image file path or URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* This will make the background cover the entire viewport height */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add any other CSS styles for your login form components below */
+
+
+.login-container {
+  width: 300px;
+  margin: 150px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.90); 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-button {
+  background-color: #007bff; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3; 
+}
+.login-container h3{
+   color: coral;
+}
+
+
+.login-container {
+  text-align: center;
+}
+
+.animated-text {
+  font-size: 2rem;
+  background: linear-gradient(45deg, #FF5733, #FFC300, #DAF7A6, #1BCA9B, #FF5733);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s linear infinite, colorChange 5s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: #FF5733;
+  }
+  25% {
+    color: #FFC300;
+  }
+  50% {
+    color: #DAF7A6;
+  }
+  75% {
+    color: #1BCA9B;
+  }
+  100% {
+    color: #FF5733;
+  }
+}

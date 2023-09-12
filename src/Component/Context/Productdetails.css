@@ -1,0 +1,33 @@
+.productdetails h2{
+ margin-left: 100px;
+ margin-top: 30px;
+ color: violet;
+}
+.productdetails img{
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.timepass{
+    display: flex;
+    flex-direction: column;
+}
+.timepass h5{
+    width: 500px;
+    color: darkgray;
+}
+.timepass h3{
+    margin-top: 20px;
+    color: aqua;
+}
+.timepass h2{
+    margin-top: 20px;
+    color: red;
+}
+.timepass button{
+    
+    margin-top: 20px;
+}
